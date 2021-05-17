@@ -4,24 +4,52 @@
 <head>
   <meta charset="utf-8">
   <title>Contact Me</title>
+  <link rel="stylesheet" href="CSS/Styles.css">
 </head>
 
 <body>
-  <h3>My Contact Details:</h3>
-  <ul>
-    <li>kshreedhar01622@gmail.com</li>
-    <li><a href="https://www.facebook.com/shridhar.khare.9/">Facebook</a></li>
-    <li><a href="https://www.reddit.com/user/TheTechnetiumGuy">Reddit</a></li>
-  </ul>
+
+  <table cellspacing="25">
+    <tr>
+      <td><img src="Shridhar Logo.png" alt="shridhar profile picture" height="250" width="250"></td>
+      <td>
+        <h1>Shridhar Khare</h1>
+        <hr width="12%" align="left">
+        <p><em>-The Technetium Guy-</em></p>
+        <hr width=75% align="Left">
+        <p>
+          <font face="Poppins" , size="4">I am a Student at <em><strong>Sushma Patil Vidyalaya</strong></em>
+            in Kamothe, Navi mumbai, Maharashtra, India.<br>
+            I am currently in class 10. Pretty much interested in Computers.</font>
+        </p>
+      </td>
+    </tr>
+  </table>
   <hr>
-  <h3>Contact Me!</h3>
+
+  <center>
+    <a href="index.html"><strong>Home</strong></a>
+    <a href="Education.html"><strong>Education</strong></a>
+    <a href="Hobbies.html"><strong>Hobbies</strong></a>
+    <a href="Contactme.html"><strong>Contact Me</strong></a>
+  </center>
+
+  <hr>
+
+  <h3>My Contact Details:</h3>
+  <a href="https://www.reddit.com/user/TheTechnetiumGuy" class="reddit">Reddit</a>
+  <a href="https://www.facebook.com/shridhar.khare.9/" class="facebook">Facebook</a>
+  <hr>
+
+
   <form action="mailto:kshreedhar01622@gmail.com" method="post" enctype="text/plain">
+    <h3>Contact Me!</h3>
     <label for="">Name:</label><br>
-    <input type="text" name="Person's Name" value=""><br>
+    <input type="text" name="Person's Name" class="name"><br>
     <label for="">Your Email:</label><br>
-    <input type="email" name="Person's Email" value=""><br>
+    <input type="email" name="Person's Email" class="email"><br>
     <label for="">Your Message:</label><br>
-    <textarea name="Person's Message" rows="8" cols="40"></textarea><br>
+    <textarea name="Person's Message" rows="8" cols="40" class="message"></textarea><br>
     <label for="">Subscribe to newsletter?</label>
     <input type="checkbox" name="" value=""><br>
     <input type="submit" name="">
