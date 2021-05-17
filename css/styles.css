@@ -1,0 +1,78 @@
+body {
+  background-color: #eeeded;
+}
+
+hr {
+    border-style: none;
+    border-top-style: solid;
+    border-top-width: thin;
+    border-top-color: green;
+    height: 0;
+  }
+
+h1{
+    color: #5c6e91;
+  }
+
+h3{
+    color: #3f3697;
+  }
+
+a{
+  background-color: #8f384d;
+  color: #eeeded;
+  padding: 12px 12px 12px 12px;
+  text-align: center;
+  border-radius: 15px;
+  text-decoration: none;
+  margin: 5px;
+  box-shadow: #4f1724 5px 5px;
+  
+}
+
+a:hover{
+  box-shadow: none;
+  transition-duration: .2s;
+}
+
+.reddit{
+  background-color: #FF4500;
+  color: white;
+  box-shadow: none;
+  border-radius: 25px;
+}
+
+.facebook {
+  background-color: #4267B2;
+  box-shadow: none;
+  color: white;
+  border-radius: 25px;
+}
+
+form {
+  background-color: darkseagreen;
+  width: fit-content;
+  border: double;
+  border-radius: 10px;
+  padding: 3px 10px 10px 10px;
+}
+
+.name{
+  background-color: #c6ffc1;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: darkcyan;
+}
+ textarea{
+ background-color: #c6ffc1;
+ border-radius: 10px;
+ border-style: solid;
+ border-color: darkcyan;
+ }
+
+ .email{
+   background-color: #c6ffc1;
+   border-radius: 10px;
+   border-style: solid;
+   border-color: darkcyan;
+ }
